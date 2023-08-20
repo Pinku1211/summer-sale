@@ -22,7 +22,6 @@ function handleClick(event) {
     if (total >= 200.00) {
         couponBtn.removeAttribute("disabled")
     }
-    console.log(total)
 }
 
 function getTotal(amount) {
